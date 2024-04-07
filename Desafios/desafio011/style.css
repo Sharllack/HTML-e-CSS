@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+body {
+    background-image: url('espaco.jpg');
+    background-size: cover; /*Para cobrir toda a página */
+    background-position: center; /* Para centralizar a imagem */
+}
+
+img {
+    display: block;
+    margin: auto;
+}
