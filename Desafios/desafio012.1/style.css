@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "Passion One";
+    src: url('fontes/Passion_One/PassionOne-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Sriracha";
+    src: url('fontes/Sriracha/Sriracha-Regular.ttf') format('truetype');
+}
