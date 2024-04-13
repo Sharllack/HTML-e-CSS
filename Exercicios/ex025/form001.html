@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        form p {
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Meu primeiro formulário</h1>
+    <form action="cadastro.php"><!-- O action é utilizado para determinar para onde os dados serão enviados após apertaram no botão submit --><!-- Caso queira desativar a janela de sugestões é so colocar dentro da TAG autocomplete="off"-->
+        <p><label for="idnome">Nome:</label>
+            <input type="text" name="nome" id="idnome"></p><!-- No for do label sempre colocar o id -->
+
+        <p><label for="idsobrenome">Sobrenome:</label>
+            <input type="text" name="sobrenome" id="idsobrenome"></p>
+            
+        <p><input type="submit" value="Enviar"></p>
+    </form>
+</body>
+</html>
