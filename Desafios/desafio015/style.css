@@ -36,3 +36,11 @@ main {
     background: url('imagens/frame-iphone.png');
     background-repeat: no-repeat;
 }
+
+#idtela {
+    position: relative;
+    top: 81px;
+    left: 22px;
+    height: 470px;
+    width: 267px;
+}
