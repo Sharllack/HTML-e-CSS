@@ -19,13 +19,13 @@
 </head>
 <body>
     <h1>Meu primeiro formulário</h1>
-    <form action="cadastro.php"><!-- O action é utilizado para determinar para onde os dados serão enviados após apertaram no botão submit --><!-- Caso queira desativar a janela de sugestões é so colocar dentro da TAG autocomplete="off"-->
+    <form action="cadastro.php" method="post"><!-- O action é utilizado para determinar para onde os dados serão enviados após apertaram no botão submit --><!-- Caso queira desativar a janela de sugestões é so colocar dentro da TAG autocomplete="off"--> <!-- Por padrão o método de envio é o GET que deve ser utilizado quando não serão coletados dados sensíveis. O POST é utilizado quando forem coletados dados como senhas, envio de arquivos e mais de 3 mil bytes-->
         <p><label for="idnome">Nome:</label>
-            <input type="text" name="nome" id="idnome"></p><!-- No for do label sempre colocar o id -->
+            <input type="text" name="nome" id="idnome" required></p><!-- No for do label sempre colocar o id -->
 
         <p><label for="idsobrenome">Sobrenome:</label>
-            <input type="text" name="sobrenome" id="idsobrenome"></p>
-            
+            <input type="text" name="sobrenome" id="idsobrenome" required></p>
+
         <p><input type="submit" value="Enviar"></p>
     </form>
 </body>
